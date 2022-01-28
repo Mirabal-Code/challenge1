@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 99%;
+}
+body {
+  font-family: arial;
+  background-image: url("holaa.jpg");
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+/*HEADER*/
+a {
+  text-decoration: none;
+  color: white;
+}
+
+
+body {
+  height: 99%;
+}
+body {
+  height: 99%;
+}
+body {
+  background-image: url(holaa.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: center;
+  background-color: black;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.titulo {
+  padding: 75px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  margin: auto;
+  
+  
+}
+.box {
+  padding: 10px;
+  margin: 0 200px 0 200px;
+  box-shadow: 2px 2px 2px 1px rgba(26, 25, 25, 0.2);
+  background-color: white;
+  border-radius: 0.5em;
+  width: 50vw;
+  height: auto;
+}
+
+.btn {
+  border: 0;
+  color: rgb(252, 249, 249);
+  font-weight: bold;
+  background-color: rgb(161, 12, 12)
+  ;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 0.5em;
+}
+
+.text-input {
+  border-radius: 0.5em;
+  border: 1px solid rgba(7, 7, 7, 0.2);
+  display: block;
+  padding: 0.5em;
+  width: 100%;
+  height: 250px;
+}
